@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+</head>
+<body>
+    <h1>Add Employee</h1>
+    <form action="/addemp" method="post" enctype="multipart/form-data">
+        <label for="emp_id">Employee ID:</label>
+        <input type="text" id="emp_id" name="emp_id" required><br><br>
+        
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+        
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+        
+        <label for="pri_skill">Primary Skill:</label>
+        <input type="text" id="pri_skill" name="pri_skill" required><br><br>
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br><br>
+        
+        <label for="emp_image_file">Employee Image:</label>
+        <input type="file" id="emp_image_file" name="emp_image_file" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
